@@ -1,0 +1,23 @@
+package oopjava;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Matematika_bereaksi {
+    public static void main(String[] args) {
+        Matematika matematika = new Matematika();
+        int hasil_tambah = matematika.gettambah(20, 20);
+        int hasil_kali = matematika.getkali(4, 5);
+        int hasil_kurang = matematika.getkurang(7, 5);
+        int hasil_bagi = matematika.getbagi(10, 5);
+        
+   System.out.println(" hasil penjumlahan "+ hasil_tambah);
+    System.out.println(" hasil perkalian "+ hasil_kali);
+     System.out.println(" hasil pengurangan "+ hasil_kurang);
+      System.out.println(" hasil pembagian "+ hasil_bagi);
+   
+   
+   
+}
+}
