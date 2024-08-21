@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package oopjava;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Handphone_bereaksi {
+    public static void main(String[] args) {
+        Handphone handphoneku = new Handphone();
+        handphoneku.hp_hidup = ".....";
+        handphoneku.panggilan = "kring kring kring";
+        handphoneku.sms = "drung drung drung";
+        handphoneku.hp_mati= ".....tutttt";
+        
+        System.out.println("handphone hidup" + handphoneku.hp_hidup);
+        System.out.println( handphoneku.panggilan+ "panggilan dilakukan");
+        System.out.println( handphoneku.sms+"sms berhasil terkirim");
+        System.out.println("handphone mati" + handphoneku.hp_mati);
+                
+    }
+}
