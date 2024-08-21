@@ -1,0 +1,21 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package oopjava;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Tersetruktur {
+    public static void main(String[] args) {
+        System.out.println(" perkalian 2 bilangan");
+        System.out.println(" a = 3 dan b = 5");
+        int a = 3;
+        int b = 5;
+        int hasil = a * b;
+        System.out.println(" hasil = " + hasil);
+        
+    }
+}
