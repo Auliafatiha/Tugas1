@@ -1,0 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package oopjava;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Migrasi_reaksi {
+    public static void main(String[] args) {
+        Migrasi_tersetruktur hasil = new Migrasi_tersetruktur();
+        int total = hasil.getperkalian(20, 0);
+        
+        System.out.println(" hasil perkalian "+ total);
+    }
+}
